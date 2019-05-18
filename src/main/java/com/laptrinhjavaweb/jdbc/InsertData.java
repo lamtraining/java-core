@@ -16,7 +16,7 @@ public class InsertData {
 		PreparedStatement statement = null;
 		try {
 			connection = DriverManager.getConnection(url, username, password);
-			String sql = "INSERT INTO student (code, fullname, address, score) VALUES ('123', 'lap trinh java web 2', 'HCM', 10)";n
+			String sql = "INSERT INTO student (code, fullname, address, score) VALUES ('123', 'lap trinh java web 2', 'HCM', 10)";
 			
 			System.out.println("Insert student success!");
 			
